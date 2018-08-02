@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import * as fromContainers from './main-module/containers';
+import * as fromContainers from './appm/containers';
 
 @NgModule({
   declarations: [
