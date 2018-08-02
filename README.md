@@ -1,27 +1,9 @@
-# DevicePlatform
+# Login App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+## part 5 Setting up backend
 
-## Development server
+get the data from the backend , what we're doing right now is that we just hard-coding the data which would be visible to the user once the user authenticates that is not of much use because you export your application to production , whatever data you have by your router's protected or whatever you have implemented in angular itself only . that is useless because angular runs on front-end , so anyone can reverse engineer and see what data you are hiding , so what you essentially need is sessions and cookies and all that studd , all the traditional stuff with your angular front-end  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+you can see that we get this 
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Session就是一系列的打开状态的Tab，用户可以保存、管理Session，以实现快速打开一系列网站的目的。Chrome Plugins网站用户twinsen发布了他制作的Session Saver插件，可以让Chrome也实现类似的功能。
